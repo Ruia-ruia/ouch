@@ -20,7 +20,8 @@ int main() {
 	A *z = new A;
 	A *a = new A(c);
 	A *b = new A(a);
-	
+	A *w = new A(b);
+
 	delete a;
 
   	cout << b->ptr << endl;
